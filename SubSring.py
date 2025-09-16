@@ -18,7 +18,7 @@ if __name__ == '__main__':
     count = count_substring(string, sub_string)
     print(count)
   
-  """The built-in function cannot give expected output if the substring is overlapped.
+  """The built-in function count() cannot give expected output if the substring is overlapped.
   For eg. If a='inini"
   here there are 2 "ini" but count() takes count as 1 and ignores first occurence.now remaining is "ni".
   so count() returns 1.So when the substrings are overlapped in the main string,count() does give wrong answer."""
